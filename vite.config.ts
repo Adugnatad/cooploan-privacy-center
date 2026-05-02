@@ -11,6 +11,9 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 4000,
       },
+      preview: {
+        allowedHosts: ["smefinance.coopbank.local"],
+      },
     },
     resolve: {
       alias: {
