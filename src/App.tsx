@@ -26,7 +26,7 @@ const SECTIONS = [
     title: "Introduction",
     icon: <Info className="w-5 h-5 text-blue-600" />,
     content:
-      "We value your trust. This Privacy Policy explains how TrustLoan collects, uses, and protects your information when you apply for a loan through our platform.",
+      "We value your trust. This Privacy Policy explains how Coop Loan collects, uses, and protects your information when you apply for a loan through our platform.",
   },
   {
     id: "data-collection",
@@ -258,7 +258,7 @@ export default function App() {
               <ShieldCheck className="w-4 h-4 text-white" />
             </div>
             <span className="font-bold text-sm tracking-tight">
-              TrustLoan Security Hub
+              Coop Loan Security Hub
             </span>
           </div>
           <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-400">
@@ -273,7 +273,7 @@ export default function App() {
             </a>
           </div>
           <p className="text-xs text-slate-400">
-            &copy; 2026 TrustLoan Inc. All rights reserved. Registered with
+            &copy; 2026 Coop Loan Inc. All rights reserved. Registered with
             NMLS.
           </p>
         </div>
