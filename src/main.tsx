@@ -7,7 +7,7 @@ import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/privacy">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/delete-account" element={<DeleteAccount />} />
