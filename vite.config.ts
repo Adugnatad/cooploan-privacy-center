@@ -13,7 +13,10 @@ export default defineConfig(({ mode }) => {
       },
     },
     preview: {
-      allowedHosts: ["smefinance.coopbank.local"],
+      allowedHosts: [
+        "smefinance.coopbank.local",
+        "newborn.coopbankoromiasc.com",
+      ],
     },
     resolve: {
       alias: {
